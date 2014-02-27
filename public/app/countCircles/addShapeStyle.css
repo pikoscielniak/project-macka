@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    border: 2px solid blue;
+    background-color: #ccccff;
+    margin: auto;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#elemCount {
+    font-size: 400px;
+    margin: auto;
+    border:1px solid red;
+    text-align: center;
+    alignment-adjust: central;
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
