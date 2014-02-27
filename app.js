@@ -1,8 +1,10 @@
 var koa = require('koa');
 var app = module.exports = koa();
 
-app.use(function *(){
+app.use(function *() {
     this.body = 'Hello World';
 });
 
-if (!module.parent) app.listen(3000);
+var port = process.env.PORT || 8000;
+
+if (!module.parent) app.listen(port);
