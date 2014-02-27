@@ -1,0 +1,24 @@
+{
+  "name": "project-macka",
+  "version": "0.0.0",
+  "homepage": "https://github.com/piotrekbass/project-macka",
+  "authors": [
+    "piotrekbass"
+  ],
+  "description": "Some html5 stuff",
+  "main": "app.js",
+  "keywords": [
+    "html5"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
